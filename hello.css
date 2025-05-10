@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+}
+
+.header1 {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+header a {
+    display: flex;
+    color:grey;
+    text-decoration-line:none ;
+    font-size: 17px;
+    gap: 20px;
+}
+.header1 h1 {
+    color: white;
+    position: relative;
+    right: 60px;
+}
+
+
+.main_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marjvena {
+    display: flex;
+    flex-direction: column;
+   background-color:rgb(255, 234, 238);
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    font-size: 1.3rem;
+}
+.marcxena {
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.border {
+    width: 65px;
+    height: 4px;
+    background-color: black;
+
+}
+.border-1 {
+    width: 70px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.main-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(90, 214, 198, 0.274);
+}
+
+.marjvena-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    background-color: rgba(72, 180, 144, 0.705);
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.img-1 {
+    width: 280px;
+    height: 450px;
+}
+
+
+
+.img-main{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.main-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: rgb(43, 43, 43);
+}
+
+.page-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    border: 1px solid black;
+}
+
+.main-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 40px 0 40px;
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 200px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.email {
+    width: 340px;
+    height: 35px; 
+}
+
+.checkbox {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.button {
+    display: flex;
+    background-color: #A3C7BD;
+    width: 140px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+
+.page-2 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    z-index: 0;
+}
+
+.page-3 {
+    z-index: 100;
+    position: relative;
+    right: 180px;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.page-4 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 650px;
+}
+
+.page-5 {
+    z-index: 100;
+    font-size: 1.7rem;
+    width: 300px;
+    position: relative;
+    right: 300px;
+}
+
+.img-2 {
+    width: 450px;
+    height: 500px;
+    position: relative;
+    left: 170px;
+}
+.img-3 {
+    width: 450px;
+    height: 500px;
+    position: relative;
+    left: 50px;
+}
+
+.svg {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.svg-1 {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 350px;
+    background-color: #ffffff;
+    color: #080808;
+}
+
+
+.main-6  ul{
+    list-style: none;
+}
+.main-6  ul li{
+    margin-bottom: 10px;
+}
+
+.main-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.left-2 {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+
+.right-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 40px 20px;
+    border-left: 1px solid rgb(187, 187, 187);
+    height: 170px;
+    margin-top: 30px;
+}
+
+
+
+.right-2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    border-left: 1px solid rgb(187, 187, 187);
+    padding: 30px 0 0 20px;
+    height: 170px;
+    margin-top: 25px;
+}
+
+.left-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 15px;
+    border-left: 1px solid rgb(187, 187, 187);
+    padding: 40px 10px 0 0;
+    height: 170px;
+    margin-top: 30px;
+  
+}
+
+.left-middle a {
+    text-decoration-line: none;
+    color: black;
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    height: 100px;
+    margin-top: 120px;
+}
+
+
+@media (max-width: 450px) {
+ 
+    .header {
+        display: flex;
+        width: 100%;
+    }
+
+    .header1 a {
+        opacity: 0;
+        z-index: 1;
+    }
+    .header1 h1 {
+        justify-content: center;
+        z-index: 5;
+        align-items: center;
+        position: relative;
+        left: 150px;
+    }
+    
+    .main_1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .marjvena{
+        display: flex;
+        justify-content: center;
+        width: 430px;
+        height: 250px;
+        font-size: small;
+    }
+
+    .marcxena{
+        display: flex;
+        align-items: center;
+        width: 430px;
+        height: 350px;
+        flex-direction: column;
+
+    }
+
+    img {
+        width: 430px;
+        height: 350px;
+    }
+
+      .main-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    
+
+    .marjvena-1 {
+        display: flex;
+        justify-content: center;
+        width: 430px;
+        height: 250px;
+        font-size: small;
+    }
+    .img-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .checkbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+       position:  relative;
+       left: 50px;
+    }
+    .page-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 430px;
+        height: 700px;
+    }
+
+    .page-3 {
+        left: 15px;
+        bottom: 170px;
+    }
+
+    .page-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-5 {
+        left: 15px;
+        bottom: 170px;
+    }
+
+    .img-2 {
+        width: 350px;
+        height: 250px;
+        position: static;
+        margin: 20px 20px 0 20px;
+    }
+    .img-3 {
+        width: 350px;
+        height: 250px;
+        position: static;
+        margin: 20px 20px 0 20px;
+    }
+     .main-6 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .right-2 {
+        border-left: 1px solid rgb(255, 255, 255);
+        padding: 0 10px 20px 0; 
+    }
+
+    .right-middle {
+        border-left: 1px solid rgb(255, 255, 255);
+        padding: 0 30px 0 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100px;
+    }
+    .left-middle {
+        border-left: 1px solid rgb(255, 255, 255);
+        padding: 0 10px 0 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .bottom {
+        margin-top: 0;
+    }
+}
